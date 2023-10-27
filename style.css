@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 180vh;
+    height: 95vh;
 }
 h1{
     color: rgb(236, 236, 236);
@@ -47,4 +47,9 @@ table, td {
   }
 td {
     width: 30px;
+  }
+
+@media screen and (max-width: 800px) {
+body {
+    height: 180vh; /* The width is 100%, when the viewport is 800px or smaller */
   }

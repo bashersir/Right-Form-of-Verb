@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
 }
 h1{
     color: rgb(236, 236, 236);
@@ -43,6 +43,7 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     margin: 0 auto;
+    font-size: 14px;
   }
 th, td {
     width: 30px;
